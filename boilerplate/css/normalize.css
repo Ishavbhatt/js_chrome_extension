@@ -254,11 +254,10 @@ input,
 optgroup,
 select,
 textarea {
-  color: inherit; /* 1 */
+  color: #30e6c7; /* 1 
   font: inherit; /* 2 */
   margin: 0; /* 3 */
 }
-
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
@@ -286,15 +285,15 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-
+/*
 button,
 html input[type="button"], /* 1 */
 input[type="reset"],
 input[type="submit"] {
-  -webkit-appearance: button; /* 2 */
-  cursor: pointer; /* 3 */
-}
-
+  -webkit-appearance: button; /* 2 
+ /* cursor: pointer; /* 3 */
+}**//
+*/
 /**
  * Re-set default cursor for disabled elements.
  */
@@ -424,4 +423,48 @@ table {
 td,
 th {
   padding: 0;
+}
+body {
+  background-color:  black;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+#clickme {
+
+  padding: 0 10px;
+  margin: 20px;
+  border-radius: 20px;
+  border: 2px solid #30e6c7;
+  color: #30e6c7;
+  background-color: white;
+  font-size: 23px;
+      
+    
+}
+#button2 {
+  padding: 0 10px;
+  margin: 20px;
+  border-radius: 20px;
+  border: 2px solid #30e6c7;
+  color: #30e6c7;
+  background-color: white;
+  font-size: 23px;
+
+}
+#heading {
+  color: #ABACAB;
+  font-weight: 2px;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 250px;
+}
+
+#paragraph {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  color: #656565;
 }
